@@ -1,0 +1,27 @@
+# Stream configuration
+
+#ID of channel's chat to subscribe to.
+channel_id: 0
+
+# List of users to accept administrator restricted commands from.
+admins:
+  - "Glimesh"
+
+# Title of window to send inputs towards (Linux only)
+window_title: "Super Mario Bros."
+
+# Chat commands to input
+commands:
+  left: Left
+  right: Right
+  up: Up
+  down: Down
+  a: a
+  b: s
+
+# Admin commands to input
+admin_commands:
+  savestate: F5
+  loadstate: F7
+  reset: F10
+  start: Return
